@@ -1,0 +1,11 @@
+{
+  "name": "basiccrud",
+  "version": "1.0.0",
+  "description": "Basic crud application with node, express, and mongo db",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ian Thorp",
+  "license": "ISC"
+}
