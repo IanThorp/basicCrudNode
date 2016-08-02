@@ -12,7 +12,8 @@
     "test": "jasmine JASMINE_CONFIG_PATH=build/spec/support/jasmine.json",
     "build": "babel src -d build --copy-files",
     "buildw": "babel src -d -w build --copy-files",
-    "start": "./node_modules/.bin/nodemon build/server.js"
+    "start": "node build/server.js",
+    "dev": "./node_modules/.bin/nodemon build/server.js"
   },
   "author": "Ian Thorp",
   "license": "ISC",
